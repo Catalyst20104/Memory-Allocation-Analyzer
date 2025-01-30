@@ -3,7 +3,7 @@
 ## Overview
 Memory Allocation Analyzer is a powerful tool designed to help developers analyze, monitor, and optimize memory usage in software applications. By providing in-depth insights into memory allocations. 
 
-The analyzer works by tracking memory usage in real-time, generating detailed reports, It is particularly useful for developers working with performance-critical applications, embedded systems, and resource-constrained environments.
+The analyzer gives all the information of all variables like where the variable are stored in RAM like data section / Heap section / Stack section , Datatype of variable , size of variable,etc. 
 
 ## Features
 - Tracks memory allocations 
@@ -19,13 +19,10 @@ The analyzer works by tracking memory usage in real-time, generating detailed re
    ```bash
    cd Memory-Allocation-Analyzer
    ```
-3. Build the project (if applicable):
-   ```bash
-   make  # or follow specific build instructions
-   ```
 
 ## Usage
 Run the analyzer with the following command:
+
 1.
 ```bash
 g++ main.cpp function.cpp -o program
@@ -35,5 +32,3 @@ g++ main.cpp function.cpp -o program
 ```bash
 ./program
 ```
-
-zer!
