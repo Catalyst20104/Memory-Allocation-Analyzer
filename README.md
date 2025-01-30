@@ -4,10 +4,9 @@
 Memory Allocation Analyzer is a tool designed to analyze and optimize memory usage in programs. It helps developers identify memory leaks, inefficiencies, and potential optimizations in their code.
 
 ## Features
-- Tracks memory allocations and deallocations
-- Detects memory leaks
+- Tracks memory allocations 
 - Provides detailed memory usage reports
-- Supports visualization of memory consumption trends
+- Shows of memory usage of each variable 
 
 ## Installation
 1. Clone the repository:
