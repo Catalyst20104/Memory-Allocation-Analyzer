@@ -1,7 +1,9 @@
 # Memory Allocation Analyzer
 
 ## Overview
-Memory Allocation Analyzer is a tool designed to analyze and optimize memory usage in programs. It helps developers identify memory leaks, inefficiencies, and potential optimizations in their code.
+Memory Allocation Analyzer is a powerful tool designed to help developers analyze, monitor, and optimize memory usage in software applications. By providing in-depth insights into memory allocations. 
+
+The analyzer works by tracking memory usage in real-time, generating detailed reports, It is particularly useful for developers working with performance-critical applications, embedded systems, and resource-constrained environments.
 
 ## Features
 - Tracks memory allocations 
@@ -24,24 +26,14 @@ Memory Allocation Analyzer is a tool designed to analyze and optimize memory usa
 
 ## Usage
 Run the analyzer with the following command:
+1.
 ```bash
-./analyzer [options] <program>
+g++ main.cpp function.cpp -o program
 ```
 
-### Example:
+2.
 ```bash
-./analyzer --report my_program
+./program
 ```
 
-## Contributing
-Contributions are welcome! Feel free to submit issues and pull requests.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any questions or suggestions, please open an issue on the repository.
-
----
-
-Enjoy analyzing memory usage with Memory Allocation Analyzer!
+zer!
